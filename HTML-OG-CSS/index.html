@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Forside</title>
 </head>
 
 <body>
+    <!-- Header område -->
     <header>
         <nav>
             <span>
@@ -18,10 +21,73 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <h1>Hello World!</h1>
+        <p>Slagord</p>
     </header>
-    <h1>Hello World!</h1>
-    <p>Slagord</p>
+    <main>
+        <section>
+            <h2>Latest News</h2>
+            <article>
+                <img src="img/cat-8197577_640.jpg" alt="Grå katt som koser seg">
+                <h3>Grå pus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="#" class="read-more-btn">Les mer</a>
+            </article>
 
+            <article>
+                <img src="img/turtle-8105993_640.jpg" alt="En kul skilpadde som dukker opp i havoverflaten">
+                <h3>Kul skilpadde</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                <a href="#" class="read-more-btn">Les mer</a>
+            </article>
+
+            <article>
+                <img src="img/willow-warbler-8071472_640.jpg" alt="En liten pippip">
+                <h3>Liten pippip</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+                <a href="#" class="read-more-btn">Les mer</a>
+            </article>
+        </section>
+    </main>
+
+    <section>
+        <div id="pynt">
+
+        </div>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+    </section>
+    <section>
+        <h3>Subscribe</h3>
+        <form>
+            <label for="email-signup">Email for newsletter sign-up</label>
+            <input type="email" id="email-signup">
+            <input type="submit" value="Sign up">
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <ul id="social-icons">
+            <li>f</li>
+            <li>i</li>
+            <li>p</li>
+            <li>t</li>
+            <li>d</li>
+        </ul>
+    </footer>
 </body>
-
 </html>
